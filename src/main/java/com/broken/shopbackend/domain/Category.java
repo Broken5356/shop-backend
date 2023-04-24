@@ -11,8 +11,9 @@ import java.util.List;
 @Data
 @TableName(value = "shop_category")
 public class Category {
-    //分类ID
     @TableId(type = IdType.AUTO)
+    private Integer id;
+    //分类ID
     private Integer catId;
     //分类名称
     private String catName;

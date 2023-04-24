@@ -25,6 +25,7 @@ public class Goods {
     private Integer catOneId;
     private Integer catTwoId;
     private Integer catThreeId;
+    private Integer state;
 
 //    @TableField(exist = false)
 //    private List<Pics> pics;
